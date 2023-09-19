@@ -1,0 +1,265 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px; 
+    color: #000; 
+}
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+}
+
+.header {
+    background-color: #DC143C;
+    padding: 13px 0px; 
+    position:sticky;
+    top:0;
+}
+
+.header-top {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.nav-link {
+    color: #fff; 
+    margin-right: 12px;
+}
+
+.nav-link:nth-child(4) {
+    margin-right: 48px;
+}
+
+.header-top-phone a {
+    color: #fff;
+    margin-right: 20px; 
+}
+
+.header-top-logo {
+    margin-right: 260px;
+}
+
+.header-top-social-link {
+    margin-right: 24px;
+}
+
+
+
+
+
+.main {
+background-image: url(images/v2.jpg);
+height: 100vh;
+background-position: center;
+background-size: cover;
+}
+
+.main-title {
+    color: #fff; 
+    font-size: 45px;
+    font-weight: 700px;
+    padding-top: 230px;
+    padding-left: 150px;
+}
+
+.main-subtitle {
+    color: #fff; 
+    font-size: 25px;
+    font-weight: 600px;
+    line-height: 70px;
+    padding-left: 150px;
+}
+
+.wait-title {
+    
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color:#C0C0C0; 
+    padding-top: 100px; 
+    padding-bottom: 44px;
+    background-color: #000; 
+
+    /*margin-top: 0px; 
+    margin-bottom: 80px;
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color:#C0C0C0;
+    background-color: #000;*/
+    }
+    
+.wait-image {
+    padding-left: 80px; 
+    padding-right: 50px;
+}
+
+.wait-content {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.wait-content p {
+    padding-bottom: 30px;  
+}
+
+.wait-text p {
+    font-size: 20px; 
+    font-weight: 450px;
+    
+    display: flex;
+    align-items: center;
+   
+}
+
+.wait-text {
+    color:#C0C0C0; 
+}
+
+.cooperation {
+    background-color:#000;
+}
+
+.cooperation-title {
+    margin-top: 0px; 
+    margin-bottom: 80px;
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color:#C0C0C0;
+}
+
+.cooperation-content {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cooperation-side img {
+    height: 64px;
+    margin-right: 45px;
+}
+
+.cooperation-side div {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.cooperation-side p {
+    font-size: 25px;
+    width: 300px;
+    color:#C0C0C0;
+}
+
+.cooperation-side {
+    margin-right: 120px;
+}
+
+.cooperation-side:last-child {
+    margin-right: 0; 
+}
+
+
+.container-title {
+    margin-top: 0px; 
+    margin-bottom: 80px;
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color:#C0C0C0;
+}
+
+.ph {
+    background-color:#000;
+} 
+
+.ph img {
+    padding-left: 22px;
+}
+
+.table {
+    background-color: #000;
+}
+table {
+    width: 100%; 
+    background: white; 
+    color: white; 
+    border-spacing: 1px; 
+   }
+.table img {
+
+}
+
+   td, th {
+    background: #000; 
+    padding: 5px; 
+   }
+
+   th {
+    color: #DC143C;
+   }
+
+   .container-table {
+    margin-top: 0px; 
+    margin-bottom: 80px;
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color:#C0C0C0;
+}
+
+.footer {
+    background-color: #DC143C;
+    padding: 42px 60px; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content div span{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-content div span h1 {
+    font-size: 35px;
+    color: #000;
+}
+
+.footer-content div span img {
+    margin-right: 15px;
+}
+
+.footer-content div h2 {
+    font-size: 23px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.footer-content div a {
+    font-size: 23px;
+    font-weight: lighter;
+    color: #000;
+    display: block;
+}
+
+.copyright__text {
+    font-size: 23px;
+    font-weight: lighter;
+    color: #000;
+}
