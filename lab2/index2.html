@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Связь с нами</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form action="https://httpbin.org/post" method="POST">
+            <div class="form">
+                <h1>
+                    Заполните форму
+                </h1>
+    <div class="block_of_data">
+        <input type="text" name="name" class="name" placeholder="ФИО">
+        <input type="email" name="email" class="mail" placeholder="Email">
+        <input type="tel" name="tel" class="tel" placeholder="Номер телефона">
+    </div>
+    <div class="knowledge">
+        <p class="know">Откуда вы о нас узнали?</p>
+            <div class="options">
+                <input name="source" type="radio" id="friends" value="friends">
+                <label for="friends">От друзей</label>
+                <br>
+                <br>
+                <input name="source" type="radio" id="internet" value="internet">
+                <label for="internet">В интернете</label>
+                <br>
+                <br>      
+                <input name="source" type="radio" id="other" value="other">
+                <label for="other">Из другого источника</label>
+            </div>
+    </div>
+
+    <div class="reason">
+        <p class="p-reason">С какой целью вы обращаетесь?</p>
+            <select class="select-btn" name="reason" id="reason">
+                <option value="order">Сделать заказ</option>
+                <option value="order">Задать вопрос</option>
+            </select>
+    </div>
+
+    <div class="text-place">
+        <p class="message">Сообщение</p>
+        <textarea name="message" rows="3" placeholder="Введите сообщение"></textarea>
+    </div>
+
+    <div class="attachment">
+        <p class="p-attachment">Прикрепите файл</p>
+        <input type="file" name="attachment" id="attachment">
+    </div>
+
+    <div class="agree">
+        <input type="checkbox" name="agree" id="agree">
+        <label for="agree">Согласие на обработку персональных данных</label>
+    </div>
+
+    <div class="send-form">
+        <button>Отправить</button>
+    </div>
+
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="stylesheet" type="text/css" href="styleauth.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cotyainer">
+        <form action="https://httpbin.org/post" method="POST">
+            <div class="form">
+                <h1>Авторизация</h1>
+                <div class="block_of_data">
+                    <input type="text" name="name" class="name" placeholder="Логин">
+                    <input type="password" name="password" class="password" placeholder="Пароль">
+                </div>
+                <div class="remembrance">
+                    <input type="checkbox" name="remembrance" id="remembrance">
+                    <label for="remembrance">Запомнить меня</label>
+                </div>
+                <div class="send">
+                    <button>Отправить</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
