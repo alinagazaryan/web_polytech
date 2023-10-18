@@ -1,0 +1,68 @@
+@media print {
+ 
+    header, footer {
+      display: none;
+    }
+    
+ 
+    body {
+      font-size: 16px;
+    }
+    
+ 
+    body {
+      background-color: #fff;
+    }
+    
+  
+    body, h1, h2, p {
+      color: #000;
+    }
+
+    body {
+      padding: 20px;
+    }
+    
+    .main-title {
+      color: #000;
+    }
+
+    .main-subtitle {
+      page-break-after: always;
+      color: #000;
+    }
+
+    .wait-title {
+      color: #000;
+    }
+
+    .wait-text {
+      page-break-after: always;
+    }
+    .cooperation-title {
+      color: #000;
+    }
+    .cooperation-content {
+      page-break-after: always;
+    }
+
+    .cooperation-side p{
+      color: #000;
+    }
+    .container-title {
+      color: #000;
+    }
+    .ph {
+      page-break-after: always;
+    }
+
+    .container-table {
+        color: #000;
+      }
+
+    tr {
+      color: #000;
+    }
+  
+  }
+

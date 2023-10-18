@@ -4,9 +4,11 @@ body {
     font-size: 20px; 
     color: #000; 
 }
+
 html {
     scroll-behavior: smooth;
   }
+
 *{
     margin: 0; 
     padding: 0; 
@@ -22,7 +24,7 @@ html {
 }
 
 .header-top {
-    display: flex; 
+    display: flex;
     align-items: center; 
     justify-content: center;
 }
@@ -48,9 +50,6 @@ html {
 .header-top-social-link {
     margin-right: 24px;
 }
-
-
-
 
 
 .main {
@@ -181,11 +180,15 @@ background-size: cover;
 
 .ph {
     background-color:#000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 } 
 
-.ph img {
+/*.ph img {
     padding-left: 22px;
 }
+*/
 
 .table {
     background-color: #000;
@@ -196,9 +199,6 @@ table {
     color: white; 
     border-spacing: 1px; 
    }
-.table img {
-
-}
 
    td, th {
     background: #000; 
@@ -263,3 +263,6 @@ table {
     font-weight: lighter;
     color: #000;
 }
+
+
+
