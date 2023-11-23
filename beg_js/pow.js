@@ -5,3 +5,9 @@ function pow(x, n) {
     }
     return result;
   }
+
+
+const result1 = pow(6, 2);
+console.log(result1);
+
+

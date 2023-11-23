@@ -7,3 +7,13 @@ function pluralizeRecords(n) {
         return `В результате выполнения запроса было найдено ${n} записей`;
     }
 }
+
+const result1 = pluralizeRecords(1);
+console.log(result1);
+
+const result2 = pluralizeRecords(5);
+console.log(result2);
+
+const result3 = pluralizeRecords(21);
+console.log(result3);
+

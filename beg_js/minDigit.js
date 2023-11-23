@@ -19,3 +19,13 @@ function minDigit(x) {
 
     return min;
 }
+
+const number1 = 35492;
+const number2 = 1087;
+
+// Нахождение минимальной цифры в числах
+const minDigit1 = minDigit(number1);
+console.log(`Минимальная цифра в числе ${number1}:`, minDigit1);
+
+const minDigit2 = minDigit(number2);
+console.log(`Минимальная цифра в числе ${number2}:`, minDigit2);

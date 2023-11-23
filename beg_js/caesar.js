@@ -23,3 +23,8 @@ function caesar(str, shift, action) {
 
     return result;
 }
+
+const messageToDecode = "эзтыхз фзъзъз";
+const shiftValue = 8;
+const decodedMessage = caesar(messageToDecode, shiftValue, 'decode');
+console.log(decodedMessage);  // Результат: "этотекст тексттекст"

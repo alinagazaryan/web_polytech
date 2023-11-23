@@ -14,3 +14,17 @@ function getSortedArray(array, key) {
 
     return array;
 }
+
+// Пример использования:
+const people = [
+    { name: 'John', age: 30 },
+    { name: 'Alice', age: 25 },
+    { name: 'Bob', age: 35 }
+];
+
+const sortedPeopleByName = getSortedArray(people, 'name');
+console.log("Сортировка по имени:", sortedPeopleByName);
+
+const sortedPeopleByAge = getSortedArray(people, 'age');
+console.log("Сортировка по возрасту:", sortedPeopleByAge);
+

@@ -15,6 +15,11 @@ function bubbleSort(arr) {
 
     return arr;
 }
+
+const unsortedArray = [33, 49, 25, 12, 22, 11, 90];
+const sortedArray = bubbleSort(unsortedArray);
+
+console.log("Отсортированный массив:", sortedArray);
 //№2 
 function countDuplicates(arr) {
     const countMap = new Map(); 
@@ -37,6 +42,12 @@ function countDuplicates(arr) {
 
     return duplicates;
 }
+
+const numbers = [1, 2, 3, 4, 2, 5, 6, 3, 7, 8, 8, 9];
+const duplicateCounts = countDuplicates(numbers);
+
+console.log("Исходный массив:", numbers);
+console.log("Повторяющиеся элементы и их количество:", duplicateCounts);
 //№3
 function findLargestRowMin(matrix) {
     if (matrix.length === 0) {
@@ -59,15 +70,19 @@ function findLargestRowMin(matrix) {
     return largestMin; 
 }
 
-// Пример использования:
 const matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
+    [3, 5, 2, 8],
+    [1, 6, 4, 9],
+    [7, 2, 8, 1],
+    [4, 3, 6, 7]
 ];
 
 const largestRowMin = findLargestRowMin(matrix);
-console.log(largestRowMin); 
+
+console.log("Исходная матрица:");
+console.log(matrix);
+console.log("Наибольшее из минимальных значений строк:", largestRowMin);
+
 //№4 
 class Vector3D {
     constructor(x, y, z) {
@@ -106,6 +121,36 @@ class Vector3D {
         return this.x * vector.x + this.y * vector.y + this.z * vector.z;
     }
 }
+
+// Пример использования:
+const vectorA = new Vector3D(1, 2, 3);
+const vectorB = new Vector3D(4, 5, 6);
+
+// Сложение векторов
+const sumResult = vectorA.add(vectorB);
+console.log("Сумма векторов A и B:", sumResult);
+
+// Разность векторов
+const subtractResult = vectorA.subtract(vectorB);
+console.log("Разность векторов A и B:", subtractResult);
+
+// Покомпонентное произведение векторов
+const multiplyResult = vectorA.multiply(vectorB);
+console.log("Покомпонентное произведение векторов A и B:", multiplyResult);
+
+// Умножение вектора на скаляр
+const scalar = 2;
+const multiplyScalarResult = vectorA.multiplyScalar(scalar);
+console.log("Умножение вектора A на скаляр:", multiplyScalarResult);
+
+// Длина вектора
+const lengthA = vectorA.length();
+console.log("Длина вектора A:", lengthA);
+
+// Скалярное произведение векторов
+const dotProductResult = vectorA.dot(vectorB);
+console.log("Скалярное произведение векторов A и B:", dotProductResult);
+
 //№5 
 function cyclicShiftLeft(arr, k) {
     const n = arr.length;
@@ -122,3 +167,13 @@ function cyclicShiftLeft(arr, k) {
 
     return result;
 }
+
+// Пример использования:
+const originalArray = [1, 2, 3, 4, 5];
+const shiftAmount = 2;
+
+// Выполнение циклического сдвига влево
+const shiftedArray = cyclicShiftLeft(originalArray, shiftAmount);
+
+console.log("Исходный массив:", originalArray);
+console.log("Циклический сдвиг влево на", shiftAmount, "позиции(й):", shiftedArray);

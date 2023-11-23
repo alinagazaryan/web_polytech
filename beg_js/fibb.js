@@ -14,3 +14,11 @@ function fibb(n) {
 
     return current;
 }
+
+// Пример использования:
+const n = 7;
+
+// Вычисление 7-го числа Фибоначчи
+const result = fibb(n);
+
+console.log(`Число Фибоначчи под номером ${n}:`, result);
