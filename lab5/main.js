@@ -98,11 +98,14 @@ function downloadData(page = 1, searchQuery = '') {
     let factsList = document.querySelector('.facts-list');
     let url = new URL(factsList.dataset.url);
     let perPage = document.querySelector('.per-page-btn').value;
+    
     url.searchParams.append('page', page);
     url.searchParams.append('per-page', perPage);
+    
     if (searchQuery) {
         url.searchParams.append('q', searchQuery);
     }
+
     let xhr = new XMLHttpRequest();
     xhr.open('GET', url);
     xhr.responseType = 'json';
@@ -216,5 +219,4 @@ document.querySelector('.search-btn').onclick = function () {
     let searchInput = document.querySelector('.search-input');
     let searchQuery = searchInput.value.trim();
     downloadData(1, searchQuery);
-};   
-
+};
