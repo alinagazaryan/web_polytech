@@ -1,0 +1,96 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+}
+
+h4, h5, h6 {
+    font-weight: 700;
+}
+
+.navbar {
+    background-color: #874BA0;
+    border-bottom: 1px solid #874BA0;
+}
+
+.nav-link {
+    color: white;
+}
+
+.banner {
+    background-color: #eaecf0;
+}
+
+.btn-outline-secondary {
+    background-color: transparent !important;
+    border-color: #874BA0;
+    color: #874BA0;
+    border-radius: 0;
+}
+
+.btn-outline-secondary:hover {
+    color: #874BA0 !important;
+}
+
+.btn-secondary {
+    border-radius: 0;
+    background-color: #874BA0;
+}
+
+.btn-secondary:hover {
+    color: #83F3ED;
+    background-color: #874BA0;
+}
+
+.btn-primary {
+    border-radius: 0;
+    background-color: #83F3ED;
+    color: #874BA0;
+    border-color: #83F3ED !important;
+}
+
+.btn-primary:hover {
+    background-color: #874BA0;
+    color: #83F3ED;
+}
+
+.call-to-action {
+    background-color: #874BA0;
+    color: white;
+}
+
+.heading-line {
+    height: 3px;
+    width: 200px;
+    background-color: #83F3ED;
+}
+
+.program i {
+    font-size: 2rem;
+    color: #83F3ED;
+}
+
+.techologies .img-fluid {
+    height: 300px;
+    object-fit: cover;
+}
+
+.dark {
+    background-color: #874BA0;
+    color: #83F3ED;
+    height: 300px;
+}
+
+.footer {
+    background-color: #874BA0;
+    color: white;
+}
+
+
+@media (max-width: 900px) {
+    .call-to-action .container {
+        width: 100% !important;
+    }
+}
